@@ -2,7 +2,7 @@ long_name = "Reformat Item Description"
 short_name = "reformat-item-description" -- Determines the name of your addon's file.
 for_module = "tome"
 version = {1,7,6}
-addon_version = {1,0,1}
+addon_version = {1,0,2}
 weight = 9999 -- The lower this value, the sooner your addon will load compared to other addons.
 author = {'Cornelius Matejka', 'cornelius.matejka@cmtjk.de'}
 homepage = "https://github.com/cmtjk/tome-reformat-item-description"
@@ -15,7 +15,7 @@ The original description code is not altered like other similar addons, so compa
 Hold the ''Alt'' key and hover over an item to see the original, unformatted description.
 
 '''Note:'''
-This plugin increases the default tooltip width by 50%.
+This plugin increases the tooltip width for items by 50%.
 Properties with keys longer than 25 characters are not reformatted, to prevent excessive wrapping.
 <pre>
 ...
@@ -44,4 +44,4 @@ tags = {'apewithgrape', 'reformat', 'item', 'items', 'description', 'improve', '
 overload = false
 superload = true
 data = true
-hooks = true
+hooks = false
