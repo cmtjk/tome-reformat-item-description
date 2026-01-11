@@ -2,7 +2,7 @@ long_name = "Reformat Item Description"
 short_name = "reformat-item-description" -- Determines the name of your addon's file.
 for_module = "tome"
 version = {1,7,6}
-addon_version = {1,0,0}
+addon_version = {1,0,1}
 weight = 9999 -- The lower this value, the sooner your addon will load compared to other addons.
 author = {'Cornelius Matejka', 'cornelius.matejka@cmtjk.de'}
 homepage = "https://github.com/cmtjk/tome-reformat-item-description"
@@ -43,5 +43,5 @@ Properties with keys longer than 25 characters are not reformatted, to prevent e
 tags = {'apewithgrape', 'reformat', 'item', 'items', 'description', 'improve', 'improvement', 'usability', 'tooltip', 'tooltips'} -- tags MUST immediately follow description
 overload = false
 superload = true
-data = false
+data = true
 hooks = true

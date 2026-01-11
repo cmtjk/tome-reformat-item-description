@@ -51,7 +51,9 @@ function _M:getTextualDesc(compare_with, use_actor)
                 s = string.rep(" ", padding) .. key .. rest
             end
         elseif colon and not s:sub(colon+1):gsub("#.-#", ""):find("%S") then
-            s = "\n"..s
+            if strs[i-1]:gsub("#.-#", ""):find("%S") then
+                s = "\n" .. s
+            end
             max_key_len = calculate_padding_for_section(i+1)
         end
         reformattedDesc:add(s, (i ~= #strs or nil))
