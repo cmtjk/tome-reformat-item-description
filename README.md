@@ -17,7 +17,7 @@ Contributions, bug reports, and improvements are welcome at https://github.com/c
 ## Version History
 ```
 1.0.3
- - 'CTRL' and 'ALT' modifiers now work together, allowing simultaneous toggling of compare and reformatted text.
+- 'CTRL' and 'ALT' modifiers now work together, allowing simultaneous toggling of compare and reformatted text.
 
 1.0.2
 - Revert tooltip width to default, apply 50% width increase to item tooltips only.
